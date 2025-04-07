@@ -1,4 +1,4 @@
-# FreeRTOS-Sim
+# FreeRTOS Deadlock Demo
 
 这是一个基于Posix的FreeRTOS模拟器示例项目，用于在Linux系统上模拟运行FreeRTOS。当前示例实现了一个死锁演示程序，以展示多任务环境下互斥量使用不当导致的死锁问题，并加入了死锁检测机制。
 
