@@ -13,7 +13,12 @@
 #include "task.h"
 
 /* 死锁演示程序头文件 */
-#include "DeadlockDemo.h"
+#include "deadlock_demo.h"
+/* 我们自己的死锁检测模块 */
+#include "deadlock_detection.h"
+
+/* 声明我们的死锁演示入口函数 */
+extern void vStartDeadlockDemo(void);
 
 /* 退出标志 */
 static bool bExiting = false;

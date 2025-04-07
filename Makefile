@@ -30,7 +30,8 @@ C_FILES			+= port.c
 
 # 项目对象
 C_FILES			+= main.c
-C_FILES			+= DeadlockDemo.c
+C_FILES			+= deadlock_demo.c
+C_FILES			+= deadlock_detection.c
 
 # 包含路径
 INCLUDES        += -I$(SRCROOT)/Source/include
